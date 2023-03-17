@@ -1,0 +1,189 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+    color: #224;
+    background:
+      url(https://source.unsplash.com/E8Ufcyxz514/2400x1823)
+      center / cover no-repeat fixed,
+      #1a1a1a;     
+  }
+
+#content {
+    padding: 2em;
+    padding-left: 8em;
+    padding-right: 8em;
+    margin: auto;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #222222c8;
+    color: #ffffff;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(15px);
+}
+
+#tt{
+  text-align: center;
+}
+
+.img-preview {
+    width: 256px;
+    height: 256px;
+    position: relative;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.25);
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.img-preview>div {
+    width: 100%;
+    height: 100%;
+    background-size: 256px 256px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.upload-label{
+    font-size: 24px;
+    display: inline-block;
+    background: #27a354;
+    color: #fff;
+    font-size: 1em;
+    transition: all .4s;
+    cursor: pointer;
+    margin: 35%;
+    justify-content: center;
+    display: flex;
+    margin-top: 0.75em;
+    margin-bottom: 0.75em;
+    padding: 8px 10px;
+    border-radius: 7px;
+    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.25);
+}
+
+.upload-label:hover{
+    background: #34495E;
+    color: #39D2B4;
+}
+
+.loader {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 1s linear infinite;
+    margin-left: 40%;
+}
+ 
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+#btn-predict{
+    margin: auto;
+    margin-top: 1em;
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+    border-radius: 6px;
+    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.25);
+}
+
+#Heading{
+    color: #ffffff;
+}
+
+/* Modify the navbar color */
+.navbar-custom {
+	background-color: #222222da;
+    opacity: 90%;
+}
+
+#main{
+    margin: auto;
+    width: 50%;
+    opacity: 100%;
+}
+
+#result{
+    margin: 0 auto;
+    margin-top: 1em;
+    text-align: center;
+}
+
+
+/* Info card */
+:root {
+    font-size: 19px;
+    box-sizing: inherit;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  p:not(:last-child) {
+    margin-bottom: 1.5em;
+  }
+  
+  .card {
+    color: rgb(28, 28, 40);
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+    max-width: 1000px;
+    height: auto;
+    padding: 35px;
+    
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 1.5em;
+  
+    border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.45);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+  
+    backdrop-filter: blur(15px);
+  }
+  
+  .card-footer {
+    font-size: 0.7em;
+    color: rgba(28, 28, 40, 0.9);
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 1em;
+    text-align: center;
+  }
+
+   /* link */
+a {
+    text-decoration: underline;
+    color: rgb(12, 54, 188);
+  }
+  
+  /* mouse over link */
+a:hover {
+    color: rgba(28, 28, 40);
+  }
+  
+
+  
+
