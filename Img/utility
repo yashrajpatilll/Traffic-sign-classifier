@@ -1,12 +1,4 @@
 
-#To start the virtual env
-source bin/activate
-
-#To run the project
-python app.py
-
-
-
 
 
 
